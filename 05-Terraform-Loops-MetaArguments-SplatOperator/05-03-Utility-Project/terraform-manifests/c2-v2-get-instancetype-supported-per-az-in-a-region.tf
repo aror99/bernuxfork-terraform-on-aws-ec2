@@ -1,3 +1,4 @@
+#Esta version solo se uso para filtrar del datasource solo las regiones que se querian, viendo que en 1e no hay t3.micro, para ver la solucion, continua con c2-v3*
 # Check if that respective Instance Type is supported in that Specific Region in list of availability Zones
 # Get the List of Availability Zones in a Particular region where that respective Instance Type is supported
 # Datasource
