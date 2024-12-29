@@ -1,3 +1,4 @@
+#El objetivo de este archivo es ver como en us-east-1e no hay una instancia t3.micro, para avanzar en el ejemplo ve el c2-v2*
 # Datasource
 data "aws_ec2_instance_type_offerings" "my_ins_type1" {
   filter {
