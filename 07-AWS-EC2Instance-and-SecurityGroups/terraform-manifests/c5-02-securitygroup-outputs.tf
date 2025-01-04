@@ -4,6 +4,7 @@
 ## public_bastion_sg_group_id
 output "public_bastion_sg_group_id" {
   description = "The ID of the security group"
+  #NOTA: Estas actualizaciones donde primero tiene this_* y luego abajo ya no, se debe a que la versión del modulo primero si las usa y luego ya no
   #value       = module.public_bastion_sg.this_security_group_id
   value       = module.public_bastion_sg.security_group_id
 }
